@@ -1,6 +1,8 @@
 Project OrionThe Universal Personal AI Mentor & Life Operating System
-Whitepaper v1.0 — November 2025  Public Domain ∙ Free to build ∙ Open Protocol ∙ For every human on Earth  Cover subtitleOne free, private, superintelligent lifelong companion — from age 5 until death.Author & CuratorLordOftheIdiot5
-Loticoins@proton.me (mailto:Loticoins@proton.me)  DedicationTo every child who will never again have to learn alone.Table of ContentsExecutive Summary  
+Whitepaper v1.0 — November 2025  Public Domain ∙ Free to build ∙ Open Protocol ∙ For every human on Earth  Cover subtitleOne free, private, superintelligent lifelong companion — from age 5 until death.Author & Curator LordOftheIdiot5
+Loticoins@proton.me (mailto:Loticoins@proton.me)  DedicationTo every child who will never again have to learn alone.
+Table of Contents
+Executive Summary  
 The Ultimate Leverage Point for Humanity  
 What Orion Actually Is  
 A Day in the Life – Amina, age 9, rural Tanzania  
