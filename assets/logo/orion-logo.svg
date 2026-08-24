@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-labelledby="title desc">
+  <title id="title">Project Orion</title>
+  <desc id="desc">Orion constellation over a night-sky disc, with a small trident mark.</desc>
+  <defs>
+    <radialGradient id="sky" cx="50%" cy="38%" r="68%">
+      <stop offset="0%" stop-color="#2a1b6e"/>
+      <stop offset="55%" stop-color="#0b1233"/>
+      <stop offset="100%" stop-color="#050814"/>
+    </radialGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffe7a3"/>
+      <stop offset="100%" stop-color="#d4a017"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="1.6" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <circle cx="100" cy="100" r="96" fill="url(#sky)" stroke="#8d6b2b" stroke-width="3"/>
+  <g fill="#dce7ff" opacity="0.55">
+    <circle cx="38" cy="48" r="0.9"/>
+    <circle cx="156" cy="42" r="0.8"/>
+    <circle cx="168" cy="78" r="0.7"/>
+    <circle cx="28" cy="96" r="0.8"/>
+    <circle cx="52" cy="154" r="0.7"/>
+    <circle cx="150" cy="160" r="0.8"/>
+    <circle cx="74" cy="36" r="0.6"/>
+    <circle cx="122" cy="28" r="0.7"/>
+  </g>
+  <g fill="none" stroke="#c9a44a" stroke-width="1.6" stroke-linecap="round" opacity="0.85">
+    <!-- shoulders to belt to feet: Orion -->
+    <path d="M78 58 L92 96 L70 148"/>
+    <path d="M124 62 L108 96 L132 146"/>
+    <path d="M78 58 L124 62"/>
+    <path d="M92 96 L100 94 L108 96"/>
+    <path d="M70 148 L132 146"/>
+  </g>
+  <g filter="url(#glow)" fill="url(#gold)">
+    <circle cx="78" cy="58" r="4.2"/>   <!-- Betelgeuse -->
+    <circle cx="124" cy="62" r="3.4"/>  <!-- Bellatrix -->
+    <circle cx="92" cy="96" r="3.1"/>   <!-- Alnitak -->
+    <circle cx="100" cy="94" r="3.3"/>  <!-- Alnilam -->
+    <circle cx="108" cy="96" r="3.1"/>  <!-- Mintaka -->
+    <circle cx="70" cy="148" r="3.5"/>  <!-- Saiph -->
+    <circle cx="132" cy="146" r="4.4"/> <!-- Rigel -->
+  </g>
+  <!-- small Neptune-style trident at the base -->
+  <g fill="none" stroke="#e8c56b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" transform="translate(100 176)">
+    <path d="M0 -10 V6"/>
+    <path d="M-8 -6 Q-8 -12 0 -12 Q8 -12 8 -6"/>
+    <path d="M-8 -6 V-1"/>
+    <path d="M8 -6 V-1"/>
+  </g>
+</svg>
