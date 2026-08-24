@@ -6,7 +6,6 @@
 
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)
 [![Vision](https://img.shields.io/badge/Status-Vision_%26_Protocol_Design-8A2BE2)](WHITEPAPER.md)
-[![Community](https://img.shields.io/discord/123456789012345678?label=Discord)](https://discord.gg/orion)
 
 > "Give a child a fish → feeds her for a day.  
 > Give a child a superintelligent lifelong mentor → ends poverty forever."
@@ -35,13 +34,20 @@ One piece of software to upgrade the operating system of the entire species.
 We are writing the open protocol and reference architecture. Join us.
 
 → [Read the full Whitepaper](WHITEPAPER.md)  
-→ [Join the movement](https://discord.gg/orion)  
-→ [Contribute](#contributing)
+→ [Contribute](CONTRIBUTING.md)
 
 ## Real-world example
 A 9-year-old girl in rural Tanzania, using a $35 phone with Orion, learns university-level physics while walking to school, masters financial literacy while helping her mom at the market, and falls asleep excited about designing hypersonic planes — all without homework, tuition, or reliable internet.
 
-[Watch 2-minute vision video (coming soon)]
+*Watch the 2-minute vision video (coming soon)*
+
+## Contributing
+
+We welcome design, research, and writing contributions during this early protocol phase. See [CONTRIBUTING.md](CONTRIBUTING.md) for how to get involved, [GOVERNANCE.md](GOVERNANCE.md) for how decisions are made, and [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) for community expectations.
+
+## License
+
+Project Orion is released under the [Apache License 2.0](LICENSE).
 
 ## Star History
-[![Star History Chart](https://api.star-history.com/svg?repos=yourusername/project-orion&type=Date)](https://star-history.com/#yourusername/project-orion)
+[![Star History Chart](https://api.star-history.com/svg?repos=LordOftheIdiot5/project-orion&type=Date)](https://star-history.com/#LordOftheIdiot5/project-orion)
