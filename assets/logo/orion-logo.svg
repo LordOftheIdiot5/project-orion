@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200" role="img" aria-label="Project Orion">
+  <title>Project Orion</title>
+  <defs>
+    <radialGradient id="sky" cx="38%" cy="30%" r="85%">
+      <stop offset="0%" stop-color="#2B1B54"/>
+      <stop offset="55%" stop-color="#150E2E"/>
+      <stop offset="100%" stop-color="#07050F"/>
+    </radialGradient>
+    <linearGradient id="rim" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8A2BE2"/>
+      <stop offset="100%" stop-color="#3FC8FF"/>
+    </linearGradient>
+    <filter id="glow" x="-120%" y="-120%" width="340%" height="340%">
+      <feGaussianBlur stdDeviation="3.2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <circle cx="100" cy="100" r="96" fill="url(#sky)"/>
+  <circle cx="100" cy="100" r="96" fill="none" stroke="url(#rim)" stroke-width="3"/>
+
+  <g fill="#FFFFFF" opacity="0.35">
+    <circle cx="42" cy="46" r="1.2"/>
+    <circle cx="158" cy="80" r="1"/>
+    <circle cx="52" cy="128" r="1"/>
+    <circle cx="120" cy="34" r="1.3"/>
+    <circle cx="164" cy="120" r="1.1"/>
+    <circle cx="36" cy="96" r="1"/>
+    <circle cx="100" cy="166" r="1.2"/>
+    <circle cx="150" cy="164" r="1"/>
+  </g>
+
+  <g stroke="url(#rim)" stroke-width="1.8" stroke-linecap="round" opacity="0.75" fill="none">
+    <path d="M68 58 L134 52"/>
+    <path d="M68 58 L82 100"/>
+    <path d="M134 52 L114 108"/>
+    <path d="M82 100 L98 104 L114 108"/>
+    <path d="M82 100 L74 148"/>
+    <path d="M114 108 L142 142"/>
+  </g>
+
+  <g fill="#FFFFFF" filter="url(#glow)">
+    <circle cx="68" cy="58" r="6.5"/>
+    <circle cx="134" cy="52" r="5"/>
+    <circle cx="82" cy="100" r="4"/>
+    <circle cx="98" cy="104" r="4.5"/>
+    <circle cx="114" cy="108" r="4"/>
+    <circle cx="74" cy="148" r="4.5"/>
+    <circle cx="142" cy="142" r="6"/>
+  </g>
+</svg>
